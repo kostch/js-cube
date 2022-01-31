@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Битва квадратов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form action="" class="form1" id="form1">
+        <div class="">Задайте параметры:</div>
+        <div class="size1">Введите размер игрока 1:</div>
+        <div id="r"></div>
+        <input type="range" min="10" max="111" step="1" value="50" id="id1">
+        <div class="speed1">Введите ускорение игрока 1:</div>
+        <div id="s"></div>
+        <input type="range" min="1" max="10" step="0.1" value="5" id="id2">
+
+        <div class="size2">Введите размер игрока 2:</div>
+        <div id="r2"></div>
+        <input type="range" min="10" max="110" step="1" value="50" id="id3">
+        <div class="speed2">Введите ускорение игрока 2:</div>
+        <div id="s2"></div>
+        <input type="range" min="1" max="10" step="0.1" value="5" id="id4">
+
+        <button type="button" class="form__button" onclick="myFunction()">НАЧАТЬ ИГРУ</button>
+    </form>
+    <canvas id="canvas" style="display: none" width="800" height="800"></canvas>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.container {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.form1 {
+    padding: 10px;
+}
